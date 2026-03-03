@@ -1,0 +1,31 @@
+html, body{
+    background-color: rgb(29, 31, 35);
+    background: linear-gradient(90deg, rgb(37, 76, 91),rgb(29, 31, 35));
+}
+
+
+
+
+.header{
+    background-color: rgb(129, 194, 222);
+    color:rgb(229, 229, 229);
+    height: 200;
+    border-radius: 20px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.menu p{
+    display: inline;
+    margin: 12px;
+}
+
+
+.block1{
+    background-color: rgb(229, 229, 229);
+    height: 350;
+    weight: 500;
+    border-radius: 12px;
+}
