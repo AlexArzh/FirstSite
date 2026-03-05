@@ -10,22 +10,35 @@ html, body{
     background-color: rgb(129, 194, 222);
     color:rgb(229, 229, 229);
     height: 200;
-    border-radius: 20px;
+    border-radius: 4px;
 }
 .menu{
     display: flex;
     gap: 20px;
-    justify-content: center;
 }
 .menu p{
     display: inline;
     margin: 12px;
+    justify-content: center;
+
+}
+.menu_icon {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-top: 3px;
+    margin-right: 8px;
+}
+.menu_icon img{
+    width: 35px;
+    height: 35px;
 }
 
 
 .block1{
     background-color: rgb(229, 229, 229);
-    height: 350;
-    weight: 500;
-    border-radius: 12px;
+    height: 350px;
+    width: 900px;
+    border-radius: 6px;
+    margin-top: 5px;
 }
