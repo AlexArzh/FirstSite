@@ -1,13 +1,13 @@
+
+
 html, body{
     background-color: rgb(29, 31, 35);
     background: linear-gradient(90deg, rgb(37, 76, 91),rgb(29, 31, 35));
 }
 
 
-
-
 .header{
-    background-color: rgb(77, 175, 218);
+    background-color: rgba(39, 153, 202, 0.907);
     color:rgb(229, 229, 229);
     height: 200;
     border-radius: 4px;
@@ -18,8 +18,13 @@ html, body{
 }
 .menu p{
     display: inline;
+    font-size: 20px;;
     margin: 12px;
     justify-content: center;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 
 }
 .menu_icon {
@@ -34,11 +39,189 @@ html, body{
     height: 35px;
 }
 
+.block1 {
+    position: relative;
+    margin-top: 9px;
+}
 
-.block1{
-    background-color: rgb(229, 229, 229);
-    height: 350px;
-    width: 900px;
-    border-radius: 6px;
-    margin-top: 5px;
+.block1 > p:first-of-type {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    color: white;
+    font-size: 40px;
+    z-index: 3;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.he1{
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    color: white;
+    font-size: 40px;
+    z-index: 3;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+} 
+
+.Photo {
+    display: block;
+    width: 100%;
+    height: 700px;
+    filter: brightness(50%) blur(3px);
+    object-fit: cover;
+    width:1880;
+    height:700;
+}
+
+.block1tetxt {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    padding: 25px 35px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    height: 500px;
+    width: 700px;
+}
+
+.block1tetxt p {
+    margin: 12px;
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    transition: transform 0.2s, text-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    left: 250px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.block1tetxt img{
+    height: 90px;
+    width: 90px;
+}
+.block1tetxt p:hover {
+    transform: translateX(10px);
+    text-shadow: 0 0 10px rgba(255,255,255,0.7);
+}
+
+.block11 p {
+    font-size: 32px;
+    margin-top: 45px;
+    left: 200px;
+    color: #333;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.block11 {
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    width: 450px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 25px 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    z-index: 2;
+}
+.block11 input {
+    width: 100%;
+    margin-top: 45px;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.block11 input:focus {
+    outline: none;
+    border-color: #7cbcff;
+}
+.block11 button {
+    padding: 18px;
+    font-size: 50px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    height: 90px;
+    margin-top: 50px;
+    width: 450px;
+}
+.block11 button p{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.block11 button:hover {
+    background-color: #0056b3;
+}
+.discount-block {
+    background: linear-gradient(135deg, #ff8c00, #ff2e00);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 1200px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.discount-content h2 {
+    font-size: 56px;
+    color: white;
+    margin: 0 0 15px;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.discount-content p {
+    font-size: 28px;
+    color: white;
+    margin: 10px 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.promo-code {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 32px;
+    border: 2px solid white;
+    margin-top: 20px;
+    backdrop-filter: blur(4px);
 }
