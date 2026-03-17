@@ -7,7 +7,7 @@ html, body{
 
 
 .header{
-    background-color: rgba(39, 153, 202, 0.907);
+    background-color: rgba(78, 180, 224, 0.907);
     color:rgb(229, 229, 229);
     height: 200;
     border-radius: 4px;
@@ -81,7 +81,7 @@ html, body{
 .block1tetxt {
     position: absolute;
     top: 100px;
-    left: 200px;
+    left: 210px;
     z-index: 2;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(8px);
@@ -90,7 +90,7 @@ html, body{
     border: 1px solid rgba(255,255,255,0.2);
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     height: 500px;
-    width: 700px;
+    width: 450px;
 }
 
 .block1tetxt p {
@@ -132,7 +132,7 @@ html, body{
 .block11 {
     position: absolute;
     top: 100px;
-    right: 250px;
+    right: 240px;
     width: 450px;
     height: 500px;
     background: rgba(0, 0, 0, 0.5);
@@ -224,4 +224,94 @@ html, body{
     border: 2px solid white;
     margin-top: 20px;
     backdrop-filter: blur(4px);
+}
+
+/*таблицы*/
+.price-block {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 1400px;
+    color: white;
+}
+
+.price-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Unbounded", sans-serif;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.price-tables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.price-category {
+    flex: 1 1 300px;
+    max-width: 400px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.price-category h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #cbcbcb;
+    padding-bottom: 10px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.price-category h3 img {
+    width: 40px;
+    height: 40px;
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Exo 2", sans-serif;
+}
+
+.price-table th {
+    text-align: left;
+    padding: 12px 8px;
+    background: rgba(111, 111, 200, 0.3);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.price-table td {
+    padding: 10px 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-size: 18px;
+}
+
+.price-table tr:last-child td {
+    border-bottom: none;
+}
+
+.price-table tbody tr:hover {
+    background: rgba(255,255,255,0.2);
+    transition: 0.2s;
+}
+
+.price-table td:last-child {
+    text-align: right;
+    font-weight: bold;
+    color: #81c2ee;
 }
